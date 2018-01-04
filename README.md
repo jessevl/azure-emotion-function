@@ -5,8 +5,8 @@ Note: while this is working as is, it is a proof-of-concept. It is not very well
 
 This Azure function performs the following steps:
 
- 1. Trigger via HTTP, take the 'url' query parameter as input (thisshould be the url to an audio or video file).
- 2. Figure out the filetype and abort if it is not one of the whitelisted filetypes (mp3, wav, mp4 currently but more can easilybe added).
+ 1. Trigger via HTTP, take the 'url' query parameter as input (this should be the url to an audio or video file).
+ 2. Figure out the filetype and abort if it is not one of the whitelisted filetypes (mp3, wav, mp4 currently but more can easily be added).
  3. Download the file (currently max 10MB). 
  4. Convert the file to WAV if it isn't already a WAV file using FFMPEG. 
  5. Extract audio features from WAV to CSV using OpenSmile. 

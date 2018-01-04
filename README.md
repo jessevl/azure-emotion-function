@@ -14,7 +14,7 @@ This Azure function performs the following steps:
  7. Predict the arousal and valence scores by using the models by the Mixed Emotions project
     (https://github.com/MixedEmotions/up_emotions_audio).
 
-![Demonstration of the function](demo.png)
+![Demonstration of the function](demo.gif)
 
 ----------
 
